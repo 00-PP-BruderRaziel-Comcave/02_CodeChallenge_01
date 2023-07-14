@@ -9,9 +9,10 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-let zahl1 = prompt("Bitte die erste Zahl eingeben: ");
+let zahl1 = prompt("Bitte die erste Zahl eingeben: ");  // EIngabeaufforderung 
 let zahl2 = prompt("Bitte die zweite Zahl eingeben: ");
 
-let summe = parseFloat(zahl1) + parseFloat(zahl2);
 
-console.log("Summe ist: " + summe);
+let summe = parseFloat(zahl1) + parseFloat(zahl2); // Berechnung mit Umwandlung in Float
+
+console.log("Summe ist: " + summe); // Ausgabe der Summe
