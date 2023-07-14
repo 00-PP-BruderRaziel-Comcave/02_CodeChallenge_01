@@ -12,6 +12,6 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 let zahl1 = prompt("Bitte die erste Zahl eingeben: ");
 let zahl2 = prompt("Bitte die zweite Zahl eingeben: ");
 
-let summe = zahl1 + zahl2;
+let summe = parseFloat(zahl1) + parseFloat(zahl2);
 
 console.log("Summe ist: " + summe);
